@@ -33,8 +33,8 @@ public class ATest
 		FirefoxDriver dr=new FirefoxDriver();
 		System.out.println("initialized");
 		dr.get("http://www.bittechusa.com");
-		Assert.assertTrue(dr.getTitle().contains("bittech"));
-		dr.findElement(By.xpath(".//*[@id='me-header']/div[1]/div/ul/li[2]/a/strong")).click();
+		//Assert.assertTrue(dr.getTitle().contains("bittech"));
+		//dr.findElement(By.xpath(".//*[@id='me-header']/div[1]/div/ul/li[2]/a/strong")).click();
 	}
 
 }
