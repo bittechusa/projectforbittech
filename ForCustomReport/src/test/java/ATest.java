@@ -9,7 +9,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 
 
 
-public class A 
+public class ATest 
 {
 	@Test
 	public void start()
